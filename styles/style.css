@@ -4,9 +4,6 @@
 .font{
     font-family: "Lato", sans-serif;
 }
-header{
-   
-}
 .header{
     background: rgba(229, 84, 115, 0.1);
     display: flex;
@@ -20,15 +17,13 @@ header{
     justify-content: center;
     width: 708px;
 }
-.header-head{
+header h1{
     font-size: 80px;
-font-weight: 800;
-padding: 0%;
-margin: 0%;
+    font-weight: 800;
 }
 header p{
     font-size: 18px;
-font-weight: 400;
+    font-weight: 400;
 }
 .button{
     width: 177px;
@@ -36,8 +31,73 @@ font-weight: 400;
     padding: 20px 43px 20px 43px;
     border-radius: 8px;
     border: none;
-background: rgb(229, 84, 115);
+    background: rgb(229, 84, 115);
     color: aliceblue;
     font-size: 18px;
     font-weight: 700;
+}
+.Feature{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.Feature div h3{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.flower{
+    display: flex;
+    gap: 24px;
+}
+.flower1,.flower2,.flower3{
+    border-radius: 300px 300px 0px 0px;    
+    width: 400px;
+    height: 500px;
+}
+.flower1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower1,.flower3{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.flower2{
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flower3{
+background: rgba(71, 125, 17, 0.15);
+}
+.fhead{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 340px;
+    justify-content: center;
+    font-size: 24px;
+font-weight: 700;
+}
+.sec-cont{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1248px;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
